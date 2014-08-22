@@ -1,8 +1,7 @@
 from setuptools import setup
-import os
 import sys
 
-requirements = ['sprockets']
+requirements = ['sprockets', 'tornado']
 tests_require = ['coverage', 'coveralls', 'mock', 'nose']
 
 # Requirements for Python 2.6
@@ -13,7 +12,7 @@ if (version.major, version.minor) < (2, 7):
 
 setup(name='sprockets.http',
       version='0.1.0',
-      description=('HTTP Server / Web application controller'),
+      description='Sprockets HTTP Application Controller',
       author='AWeber Communications',
       url='https://github.com/sprockets/sprockets.http',
       entry_points={'sprockets.controller': ['http=sprockets.http']},
@@ -21,7 +20,7 @@ setup(name='sprockets.http',
       license=open('LICENSE').read(),
       namespace_packages=['sprockets'],
       package_data={'': ['LICENSE', 'README.md']},
-      packages=['sprockets.http'],
+      packages=['sprockets', 'sprockets.http'],
       classifiers=['Development Status :: 3 - Alpha',
                    'Environment :: No Input/Output (Daemon)',
                    'Framework :: Tornado',
@@ -43,4 +42,4 @@ setup(name='sprockets.http',
                    'Topic :: Software Development :: Libraries :: Python Modules'],
       test_suite='nose.collector',
       tests_require=tests_require,
-      zip_safe=True)
+      zip_safe=False)
