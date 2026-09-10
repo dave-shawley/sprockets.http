@@ -6,6 +6,9 @@ Release History
 :compare:`Next <2.5.0...master>`
 --------------------------------
 - Replace setuptools with hatch_
+- Switch the ``sprockets`` namespace package from the ``pkg_resources`` style
+  to the ``pkgutil`` style.  This removes the runtime dependency on setuptools
+  that 2.5.1 added.
 
 .. _hatch: https://hatch.pypa.io/latest/
 
