@@ -9,6 +9,9 @@ Release History
 - Switch the ``sprockets`` namespace package from the ``pkg_resources`` style
   to the ``pkgutil`` style.  This removes the runtime dependency on setuptools
   that 2.5.1 added.
+- Remove ``sprockets.http.runner.RunCommand`` and the ``httprun`` setup.py
+  command that it implemented.  It was the last thing importing distutils,
+  which was removed from the standard library in Python 3.12.
 
 .. _hatch: https://hatch.pypa.io/latest/
 
