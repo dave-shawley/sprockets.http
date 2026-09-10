@@ -3,7 +3,7 @@
 Release History
 ===============
 
-:compare:`Next <2.5.0...master>`
+:compare:`Next <2.5.1...master>`
 --------------------------------
 - Replace setuptools with hatch_
 - Switch the ``sprockets`` namespace package from the ``pkg_resources`` style
@@ -12,14 +12,14 @@ Release History
 
 .. _hatch: https://hatch.pypa.io/latest/
 
-`2.5.1`_ (24 Jul 2025)
-----------------------
+:compare:`2.5.1 <2.5.0...2.5.1>` (24 Jul 2025)
+----------------------------------------------
 - Add explicit dependency on setuptools package since we use it at runtime
 - Remove support for Python < 3.9. The library will continue to work but we
   are no longer testing older versions.
 
-`2.5.0`_ (26 May 2022)
-----------------------
+:compare:`2.5.0 <2.4.0...2.5.0>` (26 May 2022)
+----------------------------------------------
 - Add customization of **Server** header
 
 :compare:`2.4.0 <2.3.0...2.4.0>` (16 Mar 2022)
@@ -166,38 +166,3 @@ Release History
 :compare:`0.2.0 <0.0.0...0.2.0>` (22 Jul 2015)
 ----------------------------------------------
 - Add :func:`sprockets.http.run`
-<<<<<<< HEAD
-
-.. _0.2.0: https://github.com/sprockets/sprockets.http/compare/0.0.0...0.2.0
-.. _0.2.1: https://github.com/sprockets/sprockets.http/compare/0.2.0...0.2.1
-.. _0.2.2: https://github.com/sprockets/sprockets.http/compare/0.2.1...0.2.2
-.. _0.3.0: https://github.com/sprockets/sprockets.http/compare/0.2.2...0.3.0
-.. _0.4.0: https://github.com/sprockets/sprockets.http/compare/0.3.0...0.4.0
-.. _1.0.0: https://github.com/sprockets/sprockets.http/compare/0.4.0...1.0.0
-.. _1.0.1: https://github.com/sprockets/sprockets.http/compare/1.0.0...1.0.1
-.. _1.0.2: https://github.com/sprockets/sprockets.http/compare/1.0.1...1.0.2
-.. _1.1.0: https://github.com/sprockets/sprockets.http/compare/1.0.2...1.1.0
-.. _1.1.1: https://github.com/sprockets/sprockets.http/compare/1.1.0...1.1.1
-.. _1.1.2: https://github.com/sprockets/sprockets.http/compare/1.1.1...1.1.2
-.. _1.2.0: https://github.com/sprockets/sprockets.http/compare/1.0.2...1.2.0
-.. _1.3.0: https://github.com/sprockets/sprockets.http/compare/1.2.0...1.3.0
-.. _1.3.1: https://github.com/sprockets/sprockets.http/compare/1.3.0...1.3.1
-.. _1.3.2: https://github.com/sprockets/sprockets.http/compare/1.3.1...1.3.2
-.. _1.3.3: https://github.com/sprockets/sprockets.http/compare/1.3.2...1.3.3
-.. _1.4.0: https://github.com/sprockets/sprockets.http/compare/1.3.3...1.4.0
-.. _1.4.1: https://github.com/sprockets/sprockets.http/compare/1.4.0...1.4.1
-.. _1.4.2: https://github.com/sprockets/sprockets.http/compare/1.4.1...1.4.2
-.. _1.5.0: https://github.com/sprockets/sprockets.http/compare/1.4.2...1.5.0
-.. _2.0.0: https://github.com/sprockets/sprockets.http/compare/1.5.0...2.0.0
-.. _2.0.1: https://github.com/sprockets/sprockets.http/compare/2.0.0...2.0.1
-.. _2.1.0: https://github.com/sprockets/sprockets.http/compare/2.0.1...2.1.0
-.. _2.1.1: https://github.com/sprockets/sprockets.http/compare/2.1.0...2.1.1
-.. _2.1.2: https://github.com/sprockets/sprockets.http/compare/2.1.1...2.1.2
-.. _2.2.0: https://github.com/sprockets/sprockets.http/compare/2.1.2...2.2.0
-.. _2.3.0: https://github.com/sprockets/sprockets.http/compare/2.2.0...2.3.0
-.. _2.4.0: https://github.com/sprockets/sprockets.http/compare/2.3.0...2.4.0
-.. _2.5.0: https://github.com/sprockets/sprockets.http/compare/2.4.0...2.5.0
-.. _2.5.1: https://github.com/sprockets/sprockets.http/compare/2.5.0...2.5.1
-.. _Next Release: https://github.com/sprockets/sprockets.http/compare/2.5.1...master
-=======
->>>>>>> 67e3ed3e (Rewrite history file)
